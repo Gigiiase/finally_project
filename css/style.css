@@ -1,0 +1,27 @@
+/* conteiner */
+.conteiner {
+    width: min(100%, 1440px);
+    margin: auto;
+}
+/* header */
+.header_class {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 94px;
+    background: #012426;
+}
+.header_class_ul {
+    display: flex;
+    column-gap: 72px;
+}
+
+
+
+button {
+    border: none;
+    
+}
+.burger_image {
+    display: none;
+}

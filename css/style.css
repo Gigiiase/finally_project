@@ -2,6 +2,7 @@
 .conteiner {
     width: min(100%, 1440px);
     margin: auto;
+    padding-top: 98.4px;
 }
 /* header */
 .header_class {
@@ -11,6 +12,11 @@
     padding: 16px 94px;
     background: #012426;
     border-bottom: 2px solid #05BCCA;
+    position: fixed;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: inherit;
 }
 .header_class_ul {
     display: flex;
@@ -78,6 +84,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    
 }
 .section_1_title {
     font-family: Inter;
@@ -85,6 +92,7 @@ font-size: 32px;
 font-weight: 400;
 line-height: 36px;
 color: aliceblue;
+
 
 }
 .section_1_title2 {

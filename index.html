@@ -10,7 +10,10 @@
     <link rel="stylesheet" href="css/tablet.css">
     <link rel="stylesheet" href="css/mobile.css">
 
-    <link rel="stylesheet" href="https://fonts.google.com/">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+
     <title>home</title>
 </head>
 <body>
@@ -24,30 +27,32 @@
         <nav>
             <ul class="header_class_ul">
                 <li class="header_class_ul_li">
-                    <a href="index.html">Home</a>
+                    <a href="index.html" class="active">Home</a>
                 </li>
                 <li class="header_class_ul_li">
-                    <a href="index.html">Catalog</a>
+                    <a href="index.html" class="active">Catalog</a>
                 </li>
                 <li class="header_class_ul_li">
-                    <a href="index.html">Contact Us</a>
+                    <a href="index.html" class="active">Contact Us</a>
                 </li>
             </ul>
         </nav>
-        <a href="index.html"><img src="images/wpf_guitar (1).svg" alt=""></a>
+        <a href="index.html"><img src="images/wpf_guitar (1).svg" alt="" class="guitar_photo"></a>
 
         <!-- header_section -->
         <section class="header_button_class">
 
-            <button>
+            <button class="header_button">
                 <img src="images/Group (2).svg" alt="">
             </button>
 
-           <button>
+           <button class="header_button middle_button">
             <img src="images/Vector (1).svg" alt="">
            </button>
 
-           <button><img src="images/mdi_cart-outline.svg" alt=""></button>
+           <button class="header_button">
+            <img src="images/mdi_cart-outline.svg" alt="">
+        </button>
 
         </section>
      </header>

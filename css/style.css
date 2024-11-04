@@ -208,7 +208,7 @@ color: rgba(5, 188, 202, 1);
 }
 /* footer */
 .footer_class {
-    padding: 48PX;
+    padding: 48px;
     background: rgba(44, 66, 70, 1);
     display: flex;
     justify-content: center;

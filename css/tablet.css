@@ -10,6 +10,10 @@
 .section_1 {
     height: 480px;}
 
+    .section1_section {
+        padding-top: 32px;
+    }
+
     /* section_2 */
 .main_section_2 {
     padding: 48px 0px 60px 24px;
@@ -42,9 +46,14 @@
 
 /* section_1 */
 
-/* aq gavichede */
 
 .section_1_title {
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 32px; 
+}
+.section_1_title2 {
     font-family: Inter;
     font-size: 24px;
     font-weight: 400;
@@ -56,13 +65,15 @@
     font-size: 24px;
     font-weight: 700;
     line-height: 32px;
-    
-    
-
 }
 
 .footer_class {
-    display: inline-block;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+     row-gap: 40px;
+}
+.footer_class_title {
+   
 }
 }
-

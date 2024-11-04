@@ -1,2 +1,34 @@
 /* 1439-769 */
-@media (max-width: 1301px)
+@media (max-width: 1181px) {
+/* <!-- header --> */
+.header_class {
+    padding: 16px 36px;
+    
+}
+.header_nav {
+    display: none;
+}
+.burger_image {
+    display: inline-block;
+}
+
+
+/* section 2 */
+.main_section_2 {
+    padding-left: 32px;
+    padding-right: 0px;
+
+}
+.card_section {
+    overflow-x: scroll;
+}
+.card_section_article {
+    flex: 1 0 272px;
+}
+
+
+/* footer */
+.footer_class{
+padding-inline: 242px;
+}
+}

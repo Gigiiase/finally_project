@@ -6,8 +6,25 @@
     
 }
 .header_nav {
-    display: none;
+    position: fixed;
+    top: 100px;
+    left: -100%;
+    background: rgba(196, 106, 43, 1);
+    width: 200px;
+    height: 144px;
+    padding: 16px;
+    row-gap: 8px;
+    transition: 0.2s linear;
 }
+.show_nav {
+    left: 0;
+}
+.header_class_ul {
+    flex-direction: column;
+}
+     
+
+    
 .burger_image {
     display: inline-block;
 }

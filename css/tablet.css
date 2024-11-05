@@ -3,7 +3,6 @@
     /* <!-- header --> */
     .header_class {
         padding: 16px 24px; 
-        justify-content: space-between;
     }
 
     /* section_1 */
@@ -72,8 +71,11 @@
     align-items: center;
     flex-direction: column;
      row-gap: 40px;
+ text-align: center;
 }
-.footer_class_title {
-   
+
+.icon_section {
+    display: flex;
+    justify-content: center;
 }
 }

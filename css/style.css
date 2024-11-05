@@ -71,6 +71,9 @@
 .burger_image {
     display: none;
 }
+.xmark {
+    display: none;
+}
 /* section_1 */
 .section_1 {
     height: 560px;
@@ -213,6 +216,7 @@ color: rgba(5, 188, 202, 1);
     display: flex;
     justify-content: center;
     column-gap: 157px;
+    
 }
 
 .footer_class_title {
@@ -223,7 +227,6 @@ color: rgba(5, 188, 202, 1);
     color: rgba(217, 217, 217, 1);
     margin-bottom: 24px;
     border-bottom: 2px rgba(217, 217, 217, 1) solid;
-    position: relative;
     cursor: pointer;
     transition: color 0.3s ease, transform 0.3s ease;
 }
@@ -260,3 +263,148 @@ color: rgba(5, 188, 202, 1);
     transform: scale(1.1);
 }
 
+/* about_page section 1*/
+ 
+.about_sectio_main {
+    background: rgba(1, 36, 38, 1);
+    padding: 94px 96px;
+}
+.section_1_section {
+    display: flex;
+    justify-content: space-between;
+}
+.about_sectio_filter {
+    display: flex;
+    align-items: center;
+    column-gap: 16px;
+   
+}
+.Filter {
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32px;
+    color:  rgba(217, 217, 217, 1);
+}
+.about_sectio_sort {
+    display: flex;
+    align-items: center;
+    column-gap: 32px;
+}
+.sort {
+    font-family: Inter;
+font-size: 24px;
+font-weight: 700;
+line-height: 32px;
+color: rgba(217, 217, 217, 1);
+}
+.about_sectio_button {
+    background: rgba(161, 195, 201, 1);
+    width: 160px;
+    height: 32px;
+    border-radius: 4px;
+    border: none;
+}
+.Best_selling {
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: rgba(44, 66, 70, 1);
+    vertical-align: middle;
+}
+.down_arrow {
+    vertical-align: middle;
+    padding-left: 33px;
+}
+/* card_section */
+
+.card_section_2{
+    display: flex;
+    gap: 40px 20px;
+    flex-wrap: wrap;
+    margin-block: 64px ;
+}
+.card_section_2_aricle {
+    width: min(100%, 404px);
+    flex: 1 1 32%;
+    background: rgba(44, 66, 70, 1); 
+
+}
+.card_photo {
+    object-fit: cover;
+    width: 100%;
+}
+.card_title {
+    font-family: Inter;
+    font-size: 16px;
+        font-weight: 700;
+    line-height: 27px;
+    color: rgba(217, 217, 217, 1) ;
+    padding-top: 16px;
+    padding-left: 8px;
+}
+.frame_class{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 8px;
+}
+.money_h4 {
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 27px;
+    color: rgba(5, 188, 202, 1);
+
+}
+.button_cart {
+    background: rgba(196, 106, 43, 1);
+    border: none;
+    cursor:pointer;
+    border-radius: 4px;
+}
+.button_cart_photo {
+    width: 100%;
+    height: 100%;
+}
+
+
+.page_section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 48px;
+}
+.page_section_button {
+    border: none;
+    background: rgba(196, 106, 43, 1);
+    width: 121px;
+    height:40px;
+    border-radius: 8px;
+}
+.page_section_arrow {
+    vertical-align: middle;
+}
+.button_text {
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: rgba(217, 217, 217, 1);
+    vertical-align: middle;
+}
+.page_list {
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: rgba(255, 255, 255, 1);
+}
+.page_section_second_button {
+    border: none;
+    background: rgba(5, 188, 202, 1);
+    width: 92px;
+    height: 40px;
+    border-radius: 8px;
+}

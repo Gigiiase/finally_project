@@ -48,4 +48,21 @@
 .footer_class{
 padding-inline: 242px;
 }
+
+
+/* about_page */
+/* card_section */
+
+.about_sectio_main {
+    padding: 96px 32px;
+}
+.card_section_2_aricle
+{
+    width: min(100%, 548px);
+    flex: 1 1 33%;
+}
+.none_1180 {
+    display: none;
+}
+
 }

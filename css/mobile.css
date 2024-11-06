@@ -1,4 +1,4 @@
-@media (max-width: 744px) {
+@media (max-width: 321px) {
     /* <!-- header --> */
     .header_class {
         padding: 28px 8px; 
@@ -7,4 +7,10 @@
      /* section_1 */
 .section_1 {
     height: 320px;}
+
+/* about_page */
+/* card_section */
+.about_sectio_main {
+    padding: 32px 8px;
+}
 }

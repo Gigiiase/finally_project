@@ -13,4 +13,21 @@
 .about_sectio_main {
     padding: 32px 8px;
 }
+/* contact page */
+/* contact_page */
+.contact_main_section {
+    padding: 48px 8px;
+    height: 908px;
+}
+.contact_title {
+font-family: Inter;
+font-size: 24px;
+font-weight: 700;
+line-height: 32px;
+text-align: center;
+}
+
+.contact_page_icon_section {
+    column-gap: 42px;
+}
 }
